@@ -1,0 +1,33 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LyraSimplified",
+	"Description": "My collection of simplified tools from Lyra, all working together",
+	"Category": "Other",
+	"CreatedBy": "Josie Thompson",
+	"CreatedByURL": "https://josiest.github.io",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "LyraSimplified",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+  "Plugins": [
+    {
+      "Name": "BasicHeroComponent",
+      "Enabled": true
+    },
+    {
+      "Name": "SimpleGameplayExperience",
+      "Enabled": true
+    }
+  ]
+}

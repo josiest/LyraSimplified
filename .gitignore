@@ -4,6 +4,8 @@
 
 # Do not ignore git files in the root of the repo.
 !/.git*
+!/LICENSE
+!/README.md
 
 # Do not ignore current project's `.uplugin`.
 !/*.uplugin
